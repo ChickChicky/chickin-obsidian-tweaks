@@ -1,0 +1,10 @@
+{
+	"id": "chickin-obsidian-tweaks",
+	"name": "Chickin's Obsidian Tweaks",
+	"version": "1.0.0",
+	"minAppVersion": "1.0.0",
+	"description": "Convenient Obsidian plugin - at least for my usage",
+	"author": "chickin",
+	"authorUrl": "https://github.com/ChickChicky",
+	"isDesktopOnly": false
+}
