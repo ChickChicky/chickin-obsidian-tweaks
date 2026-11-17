@@ -1,9 +1,9 @@
 {
 	"id": "chickin-tweaks",
 	"name": "Chickin Tweaks",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"minAppVersion": "1.0.0",
-	"description": "Small tweaks to the app",
+	"description": "Small personal tweaks.",
 	"author": "chickin",
 	"authorUrl": "https://github.com/ChickChicky",
 	"isDesktopOnly": false

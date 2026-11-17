@@ -1,6 +1,6 @@
 {
-	"name": "chickin-tweaks",
-	"version": "1.0.1",
+	"name": "chickin-obsidian-tweaks",
+	"version": "1.0.3",
 	"description": "Chickin's Obsidian (https://obsidian.md) Tweaks",
 	"main": "main.js",
 	"type": "module",
