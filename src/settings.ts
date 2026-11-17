@@ -19,6 +19,30 @@ export class ChickinObsidianSettingsTab extends PluginSettingTab {
 		this.plugin = plugin;
 	}
 
+	getSettingDefinitions() {
+		return [
+			{
+				name: 'Enable <kbd>',
+				desc: 'Enable custom rendition of <kbd> tags',
+				control: {
+					type: 'toggle',
+					key: 'enableKbd',
+					defaultValue: true,
+				},
+			},
+			{
+				name: 'Enable <kbd> icons',
+				desc: 'Enable icon rendition for specific <kbd> keys using nerd font icons',
+				visible: () => this.plugin.settings.enableKbd,
+				control: {
+					type: 'toggle',
+					key: 'enableKbdIcons',
+					defaultValue: true,
+				},
+			},
+		];
+	}
+
 	display(): void {
 		const { containerEl } = this;
 
